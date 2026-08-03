@@ -1,0 +1,9 @@
+# Obsidian workspace/local state -- machine-specific, not worth sharing
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/.trash
+
+# OS junk
+.DS_Store
+Thumbs.db
