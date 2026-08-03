@@ -1,6 +1,6 @@
 # Security+ (SY0-701) Obsidian Study Vault
 
-A complete Obsidian vault for studying CompTIA Security+ (SY0-701), built around Professor Messer's free video course. Meant to be cloned/copied as a starting template for other certs and courses too.
+A complete Obsidian vault for studying CompTIA Security+ (SY0-701), built around Professor Messer's free video course and his Study Notes PDF with built in links and tags. Meant to be cloned/copied as a starting template for other certs and courses too.
 
 ## What's in it
 
@@ -14,13 +14,15 @@ A complete Obsidian vault for studying CompTIA Security+ (SY0-701), built around
 
 ## Setup
 
-Install these from Settings → Community plugins → Browse (search each by name, Install, then Enable):
+Download all files. Create new vault in obsidian. Place files in vault folder. Should auto populate everything within the Obsidian application.
+
+Then, install the following plugins: Settings → Community plugins → Browse (search each by name, Install, then Enable):
 
 1. **Dataview** — powers the progress bars in Contents and Home. After installing, go to Settings → Dataview and turn on **"Enable JavaScript Queries."** Without this plugin the checkboxes still work fine, you just won't get the auto-counted bars.
 2. **Daily notes** — this is a *core* plugin (Settings → Core plugins, not Community), just toggle it on. Set its **New file location** to `Daily Notes` and its **date format** to `YYYY-MM-DD` — this vault's daily notes already match that naming.
 3. **Calendar** — no config needed. Open its pane from the calendar-grid icon in the left ribbon, or Ctrl/Cmd+P → "Open calendar." Every study day (Aug 4–28) shows a dot; click a date to open that day's plan.
 4. **Tasks** — no config needed. It reads the 📅 due-date tags already sitting on every block checkbox in `Daily Notes/`.
-5. **Kanban** — no config needed. Open `Weekly Board.md` and it should render as a drag-and-drop board, not plain text.
+5. **Kanban** — no config needed. Open `Weekly Board.md` and it should render as a drag-and-drop board, not plain text. (only built in to test if I like this workflow or not. Not Necessary to keep)
 
 ## How to use this as a template for a different cert
 
