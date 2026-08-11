@@ -1,6 +1,6 @@
 # Security+ (SY0-701) Obsidian Study Vault
 
-An Obsidian study vault for CompTIA Security+ (SY0-701), organized around the official CompTIA exam objectives and Professor Messer's course order.
+A custom Obsidian study vault for CompTIA Security+ (SY0-701), organized around the official CompTIA exam objectives and Professor Messer's course order. Needed something to organize my approach to studying, as well as create a visual progress meter as I made my way through course material.
 
 ## What's included
 
