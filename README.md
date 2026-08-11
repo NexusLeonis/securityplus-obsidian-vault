@@ -1,35 +1,119 @@
 # Security+ (SY0-701) Obsidian Study Vault
 
-A complete Obsidian vault for studying CompTIA Security+ (SY0-701), built around Professor Messer's free video course and his Study Notes PDF with built in links and tags. Meant to be cloned/copied as a starting template for other certs and courses too.
+An Obsidian study vault for CompTIA Security+ (SY0-701), organized around the official CompTIA exam objectives and Professor Messer's course order.
 
-## What's in it
+## What's included
 
-- **[[00 - CompTIA Objectives Summary]]** — the official exam scope, weighted by domain
-- **[[01 - Contents]]** — full clickable table of contents, one checkbox per Messer video, in his exact course order, with a live per-domain and overall progress bar
-- **5 domain overview pages** (1.0–5.0), each linking to every topic underneath it
-- **120 individual topic notes**, one per video/section, each with a `confidence` field (blank / solid / shaky / missed) plus a Practice gaps section for tracking what you got wrong and why
-- **`Daily Notes/`** — a day-by-day schedule (Aug 4–28) with each day's study blocks written as checkbox tasks with due dates, built for the Calendar and Tasks plugins
-- **`Weekly Board.md`** — a Kanban board (one card per study day) for a coarser week-level view, for the Kanban plugin
-- **Home.md** — the front page tying all of the above together
+- `00 - CompTIA Objectives Summary.md` — official domain weighting and scope
+- `01 - Contents.md` — clickable topic list in Professor Messer's course order with progress tracking
+- Domain overview pages for Domains 1–5
+- Individual topic notes with confidence tracking and practice-gap sections
+- `Daily Notes/` — the day-by-day study schedule and task driver
+- `Weekly Board.md` — week-level Kanban view
+- `Study Method.md` — how to work through each study day
+- `Home.md` — vault landing page
+- `References.md` — source and study-resource references
 
-## Setup
+## Installation
 
-Download all files. Create new vault in obsidian. Place files in vault folder. Should auto populate everything within the Obsidian application.
+1. Download or clone the repository.
+2. Open Obsidian.
+3. Choose **Open folder as vault**.
+4. Select the downloaded vault folder.
 
-Then, install the following plugins: Settings → Community plugins → Browse (search each by name, Install, then Enable):
+## Required Obsidian plugins
 
-1. **Dataview** — powers the progress bars in Contents and Home. After installing, go to Settings → Dataview and turn on **"Enable JavaScript Queries."** Without this plugin the checkboxes still work fine, you just won't get the auto-counted bars.
-2. **Daily notes** — this is a *core* plugin (Settings → Core plugins, not Community), just toggle it on. Set its **New file location** to `Daily Notes` and its **date format** to `YYYY-MM-DD` — this vault's daily notes already match that naming.
-3. **Calendar** — no config needed. Open its pane from the calendar-grid icon in the left ribbon, or Ctrl/Cmd+P → "Open calendar." Every study day (Aug 4–28) shows a dot; click a date to open that day's plan.
-4. **Tasks** — no config needed. It reads the 📅 due-date tags already sitting on every block checkbox in `Daily Notes/`.
-5. **Kanban** — no config needed. Open `Weekly Board.md` and it should render as a drag-and-drop board, not plain text. (only built in to test if I like this workflow or not. Not Necessary to keep)
+Install and enable:
 
-## How to use this as a template for a different cert
+- **Dataview**
+- **Tasks**
+- **Calendar**
+- **Kanban**
 
-1. Copy the vault folder, rename it.
-2. Replace the objectives list in `00 -` and the section list in `01 - Contents` with the new exam's structure.
-3. Regenerate `Notes/`, `Daily Notes/`, and `Weekly Board.md` to match — or just hand-edit if the new cert is smaller.
+Recommended if you want the vault to match the original setup:
 
-## License
+- Advanced Tables
+- Git
+- Style Settings
+- Day Planner
 
-Personal study notes — copy, fork, and adapt freely.
+### Dataview setup
+
+After installing Dataview:
+
+1. Open **Settings → Dataview**.
+2. Enable **JavaScript Queries**.
+
+The progress bars in `Home.md` and `01 - Contents.md` depend on this setting.
+
+### Daily Notes setup
+
+Obsidian's built-in **Daily Notes** core plugin should be enabled.
+
+Set:
+
+- **New file location:** `Daily Notes`
+- **Date format:** `YYYY-MM-DD`
+
+The prebuilt daily files already use that naming convention.
+
+## How to use the vault
+
+Start from `Home.md`.
+
+Use `01 - Contents.md` as the master topic tracker. The topic order follows Professor Messer's SY0-701 course sequence.
+
+The daily study plan lives in `Daily Notes/`. Open the note for the current date through the Calendar plugin or directly from the folder. Each daily note contains that day's study tasks and due dates.
+
+After completing the study workflow for a topic, check it off in `01 - Contents.md`. The Dataview progress bars update automatically.
+
+## Confidence tracking
+
+Each individual topic note includes a `confidence` field.
+
+Use:
+
+- `solid` — you can answer correctly without hesitation
+- `shaky` — partly correct, slow, or uncertain
+- `missed` — incorrect
+
+Leave it blank until you've actually tested yourself on the topic.
+
+For anything marked `shaky` or `missed`, add a short note under **Practice gaps** describing the specific concept you confused or forgot.
+
+You can search Obsidian for:
+
+- `confidence: shaky`
+- `confidence: missed`
+
+That gives you a ready-made review queue.
+
+## Study structure
+
+The vault is designed around two things:
+
+1. **CompTIA's SY0-701 exam objectives** define what is in scope and how heavily each domain is weighted.
+2. **Professor Messer's course order** determines the sequence used for learning topics.
+
+The daily schedule spreads that material across smaller learning blocks and includes recall before moving on. Practice and gap repair become heavier after the first pass through the content.
+
+The schedule itself is contained in the files under `Daily Notes/`; there is no separate master schedule file to maintain.
+
+## Using this vault for another certification
+
+You can reuse the structure for another certification:
+
+1. Copy the vault.
+2. Replace the objective summary.
+3. Replace the topic list in `01 - Contents.md`.
+4. Update the domain overview pages.
+5. Replace the topic notes.
+6. Rebuild the files under `Daily Notes/` and update `Weekly Board.md`.
+
+## Sources and attribution
+
+CompTIA Security+ and SY0-701 are trademarks of CompTIA, Inc.
+
+Professor Messer course structure, video titles, and course-note references belong to Messer Studios, LLC.
+
+This vault is an independent personal study framework and does not reproduce the full contents of CompTIA exam materials or Professor Messer's paid course notes.

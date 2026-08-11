@@ -1,6 +1,10 @@
 # References & Resources
 
-[[Home|← Home]]  |  [[01 - Contents|Contents]]
+[[Home|← Home]]  |  [[01 - Contents|Contents]]  |  [[Study Method|60-Day Method]]
+
+## Primary scope
+
+**[[attachments/CompTIA Security+ (SY0-701) Exam Objectives.pdf|CompTIA Security+ SY0-701 Exam Objectives]]** — source of truth for what is in scope and the official domain weighting. Use the objectives first; Messer's notes/video order is the learning path through that scope.
 
 ## Primary video course
 

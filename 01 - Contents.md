@@ -2,9 +2,12 @@
 
 Clickable table of contents, following Professor Messer's SY0-701 course notes order exactly. Page numbers reference the official course notes PDF.
 
-Check a box once you've watched that video. The progress bars below read directly off these checkboxes — nothing else to maintain.
+Check a box once you've completed that topic's **learning loop**: Messer notes + one video pass + immediate recall. The progress bars below read directly off these checkboxes.
 
-[[Home|← Home]]  |  [[00 - CompTIA Objectives Summary|Objectives Summary →]]
+[[Home|← Home]]  |  [[00 - CompTIA Objectives Summary|Objectives Summary →]]  | 
+
+
+%% First-pass history remains in Daily Notes/2026-08-04 through 2026-08-10. Contents reset on 2026-08-11 for the 60-day relearn. %%
 
 ---
 
